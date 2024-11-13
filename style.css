@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: #00509e;
+    font-size: 2.5em;
+    margin: 10px 0 5px;
+}
+
+.sub-info {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00509e;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    color: #003d73;
+    border-bottom: 2px solid #00509e;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #00509e;
+    color: #ffffff;
+}
+
+ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+a {
+    color: #00509e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    color: #003d73;
+    border-bottom: 2px solid #00509e;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.section a {
+    font-weight: bold;
+}
+
+.section p i {
+    color: #00509e;
+    margin-right: 8px;
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.section p a:hover {
+    color: #003d73;
+    text-decoration: underline;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    color: #00509e;
+    font-size: 1.5em; 
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #003d73; 
+}
+
+.contact-icon {
+    vertical-align: middle;
+}
